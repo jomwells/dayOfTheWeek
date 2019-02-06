@@ -58,13 +58,13 @@ class dayOfTheWeek {
     double year = (double) yearInt;
     double decYear = Math.floor(year/100);
     double intDdCentury;
-    if(decYear == 15 || decYear == 19 || decYear == 23){
+    if(decYear == 11.0 || decYear == 15.0 || decYear == 19.0 || decYear == 23.0){
         intDdCentury = 0;
-    } else if(decYear == 16.0 || decYear == 20.0 || decYear == 24.0){
+    } else if(decYear == 12.0 || decYear == 16.0 || decYear == 20.0 || decYear == 24.0){
         intDdCentury = 1;
-    } else if(decYear == 17.0 || decYear == 21.0 || decYear == 25.0){
+    } else if(decYear == 13.0 || decYear == 17.0 || decYear == 21.0 || decYear == 25.0){
         intDdCentury = 2;
-    } else if(decYear == 18.0 || decYear == 22.0 || decYear == 26.0){
+    } else if(decYear == 14.0 || decYear == 18.0 || decYear == 22.0 || decYear == 26.0){
         intDdCentury = 3;
     } else {
         intDdCentury = 9;
