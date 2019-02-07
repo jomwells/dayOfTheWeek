@@ -2,7 +2,7 @@
 A simple Java command line application to determine the day of the week for a given date
 
 ### Enter a date in the form '*dd/MM/yyyy*' and the day of the week will be calculated
-Note - this program is capable of claulcating dates between the years 1100-2699 AD, although extending this range is trivial [lines 61-70]
+Note - this program is capable of calculating dates between the years 1100-2699 AD, although extending this range is trivial [lines 61-70]
 
 This program works through the *The Doomsday Method*.
 In Summary, applying the Doomsday algorithm involves three steps:
